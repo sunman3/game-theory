@@ -1,9 +1,10 @@
 # game-theory                                                   
 
 <p align = "center">
-<b>Created by Sungmin An</b>
-</p>
+Sungmin An
+==========
 Student at Columbia University in the City of New York
+</p>
 
 Purpose
 =======
