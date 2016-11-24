@@ -1,10 +1,18 @@
+/***************************************
+// MixedGameTheory.java
+// By Sungmin An 
+// Handles mixed cases in the GameTheory
+// program. 
+****************************************/
 import java.util.Scanner;
 
 public class MixedGameTheory{
 	public void play(){
 		Scanner input = new Scanner(System.in);
 
-		
+		/* Take in user inputs and appropriates them 
+		   accordingly.
+		*/
 		System.out.println("Input the rows, separated by " +
 			"commas.");
 		System.out.println("Example:");
@@ -42,7 +50,8 @@ public class MixedGameTheory{
 
 		// Strategy of B: Make A indifferent. 
 		double q = (a22-a21)/(a11-a21-a12+a22);
-
+		
+		/* Outputs answer */ 
 		System.out.println("Nash equilibrium is player A(left)"
 			+ " choosing his first choice " + p + " proportion of the time and " +
 			" player B(top) choosing his first choice " + q + " proportion of time.");
