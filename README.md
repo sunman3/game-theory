@@ -1,6 +1,9 @@
 # game-theory                                                   
 
-By Sungmin An: Student at Columbia University in the City of New York
+<p align = "center">
+<b>Created by Sungmin An</b>
+</p>
+Student at Columbia University in the City of New York
 
 Purpose
 =======
