@@ -2,15 +2,18 @@ import java.util.Scanner;
 import java.util.InputMismatchException;
 
 public class GameTheory{
-	
+	/* Main Method. */
 	public static void main(String[] args){
-
+		/* Asks user whether he/she wants to play pure or mixed case. */
 		System.out.println("Which game you want to play?");
 		System.out.println("Enter 0 for pure, 1 for mixed");
 
 		Scanner input = new Scanner(System.in); 
 		try{
 			int which = input.nextInt(); 
+			/* If user inputs any number other than 0 or 1, throw custom
+			   exception.
+			*/
 			if(!(which == 0 || which == 1)){
 				throw new NonExistantException();
 			}
