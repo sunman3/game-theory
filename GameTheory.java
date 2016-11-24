@@ -1,3 +1,9 @@
+/********************************************
+// GameTheory.java
+// By Sungmin An
+// Main class for GameTheory Program. 
+********************************************/
+
 import java.util.Scanner; 
 import java.util.InputMismatchException;
 
