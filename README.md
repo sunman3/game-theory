@@ -10,10 +10,7 @@ Personal project created for fun that calculates the Nash equilibria for finite,
 Directions
 ==========
 * Compile by compiling the main class GameTheory.java on terminal via javac GameTheory.java. Run via java GameTheory. 
-* Input format is important for the successful execution of the program. Only input in the following format: 
-1,1 1,1 
-1,1 1,1 
-That is, two payoffs separated by commas, and the pairs separated by a space. The rows are separated by lines. 
+* Input format is important for the successful execution of the program. Only input in the format as shown by the example. That is, two payoffs separated by commas, and the pairs separated by a space. The rows are separated by lines. 
 
                                                                                     
 
