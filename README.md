@@ -1,10 +1,7 @@
 # game-theory                                                   
-
-<p align = "center">
-Sungmin An
-==========
-Student at Columbia University in the City of New York
-</p>
+                                                        README
+                                                    By Sungmin An
+                                     Student at Columbia University in the City of New York
 
 Purpose
 =======
