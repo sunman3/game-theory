@@ -7,6 +7,20 @@
 import java.util.Scanner;
 
 public class MixedGameTheory{
+	
+	/* Instance variables. */
+	private double a11;
+	private double b11;
+	private double a12; 
+	private double b12;
+	private double a21; 
+	private double b21; 
+	private double a22;
+	private double b22;
+	private double p;
+	private double q; 
+	
+	
 	public void play(){
 		Scanner input = new Scanner(System.in);
 
@@ -26,30 +40,30 @@ public class MixedGameTheory{
 		String[] line = row1.split("\\s+");
 		String pairs = line[0];
 		String[] elements = pairs.split(",");
-		double a11 = Integer.parseInt(elements[0]);
-		double b11 = Integer.parseInt(elements[1]);
+		a11 = Integer.parseInt(elements[0]);
+		b11 = Integer.parseInt(elements[1]);
 	
 		pairs = line[1];			
 		elements = pairs.split(",");
-		double a12 = Integer.parseInt(elements[0]);
-		double b12 = Integer.parseInt(elements[1]);
+		a12 = Integer.parseInt(elements[0]);
+		b12 = Integer.parseInt(elements[1]);
 
 		line = row2.split("\\s+");	
 		pairs = line[0];
 		elements = pairs.split(",");
-		double a21 = Integer.parseInt(elements[0]);
-		double b21 = Integer.parseInt(elements[1]);
+		a21 = Integer.parseInt(elements[0]);
+		b21 = Integer.parseInt(elements[1]);
 
 		pairs = line[1];
 		elements = pairs.split(",");
-		double a22 = Integer.parseInt(elements[0]);
-		double b22 = Integer.parseInt(elements[1]);
+		a22 = Integer.parseInt(elements[0]);
+		b22 = Integer.parseInt(elements[1]);
 
 		// Strategy of A: Make B indifferent. 
-		double p = (b22-b21)/(b11-b21-b12+b22);
+		p = (b22-b21)/(b11-b21-b12+b22);
 
 		// Strategy of B: Make A indifferent. 
-		double q = (a22-a21)/(a11-a21-a12+a22);
+		q = (a22-a21)/(a11-a21-a12+a22);
 		
 		/* Outputs answer */ 
 		System.out.println("Nash equilibrium is player A(left)"
